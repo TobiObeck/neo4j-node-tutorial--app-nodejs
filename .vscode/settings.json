@@ -1,0 +1,35 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/*.pyc": {
+            "when": "$(basename).py"
+        },
+        "**/__pycache__": true,
+        "**/node_modules": false
+    },
+    "peacock.color": "#293a78",
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#364c9e",
+        "activityBar.background": "#364c9e",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#301017",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#364c9e",
+        "statusBar.background": "#293a78",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#364c9e",
+        "statusBarItem.remoteBackground": "#293a78",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#293a78",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#293a7899",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    }
+}

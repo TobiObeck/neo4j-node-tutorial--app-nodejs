@@ -38,7 +38,7 @@ app.use(errorMiddleware)
 
 // Server all other routes as index.html
 app.use((req, res) => {
-  if (req.header('Content-Type') === 'application/json' ) {
+  if (req.header('Content-Type') === 'application/json') {
     return res.status(404).json({
       error: 404,
       message: 'Page not found'
