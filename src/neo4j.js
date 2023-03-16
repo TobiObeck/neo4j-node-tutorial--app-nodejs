@@ -21,6 +21,9 @@ let driver
  * @returns {Promise<neo4j.Driver>}
  */
 // tag::initDriver[]
+
+// change stuff in .env file
+// copy n paste from: https://graphacademy.neo4j.com/courses/app-nodejs/0-setup/1-setup/
 export async function initDriver(uri, username, password) {
   // TODO: Create an instance of the driver here
 
@@ -39,7 +42,7 @@ export async function initDriver(uri, username, password) {
   // const myDriver = neo4j.driver('neo4j://localhost:7687',
   //   neo4j.auth.basic('neo4j', 'neo'))
 
-  
+  console.log('PW AND STUFF', uri, username, password)
   
   const driverAuth = neo4j.auth.basic(username, password)
   driver = neo4j.driver(uri, driverAuth)
